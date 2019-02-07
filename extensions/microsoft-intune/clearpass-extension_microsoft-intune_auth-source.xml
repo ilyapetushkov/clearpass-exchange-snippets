@@ -6,6 +6,7 @@
       <NVPair value="http://X.X.X.X" name="base_url"/>
       <NVPair value="notuser" name="username"/>
       <NVPair value="notuser" name="password"/>
+      <NVPair value="60" name="timeout"/>
       <Filters>
         <Filter paramValues="" filterQuery="?macAddress=%{Connection:Client-Mac-Address-NoDelim}" filterName="Intune Authorization">
           <Attributes>
